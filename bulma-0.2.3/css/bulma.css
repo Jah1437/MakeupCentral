@@ -150,11 +150,7 @@ body {
 }
 
 a {
-<<<<<<< HEAD
-  color: #00d1b2;
-=======
   color: #ff3860;
->>>>>>> master
   cursor: pointer;
   text-decoration: none;
   -webkit-transition: none 86ms ease-out;
@@ -623,19 +619,11 @@ table th {
 }
 
 a.box:hover, a.box:focus {
-<<<<<<< HEAD
-  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #00d1b2;
-}
-
-a.box:active {
-  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #00d1b2;
-=======
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #ff3860;
 }
 
 a.box:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #ff3860;
->>>>>>> master
 }
 
 @keyframes spin-around {
@@ -692,11 +680,7 @@ a.box:active {
 }
 
 .button:active, .button:focus, .button.is-active {
-<<<<<<< HEAD
-  border-color: #00d1b2;
-=======
   border-color: #ff3860;
->>>>>>> master
   outline: none;
 }
 
@@ -711,12 +695,8 @@ a.box:active {
   color: rgba(54, 54, 54, 0.3);
 }
 
-<<<<<<< HEAD
-.button[disabled]::-webkit-input-placeholder, .button.is-disabled::-webkit-input-placeholder {
-=======
 .button[disabled]::-webkit-
 -placeholder, .button.is-disabled::-webkit-input-placeholder {
->>>>>>> master
   color: rgba(54, 54, 54, 0.3);
 }
 
@@ -912,11 +892,7 @@ a.box:active {
 }
 
 .button.is-primary {
-<<<<<<< HEAD
-  background-color: #00d1b2;
-=======
   background-color: #ff3860;
->>>>>>> master
   border-width: 0;
   color: white;
 }
@@ -929,11 +905,7 @@ a.box:active {
 
 .button.is-primary.is-inverted {
   background-color: white;
-<<<<<<< HEAD
-  color: #00d1b2;
-=======
   color: #ff3860;
->>>>>>> master
 }
 
 .button.is-primary.is-inverted:hover {
@@ -946,16 +918,6 @@ a.box:active {
 
 .button.is-primary.is-outlined {
   background-color: transparent;
-<<<<<<< HEAD
-  border-color: #00d1b2;
-  border-width: 1px;
-  color: #00d1b2;
-}
-
-.button.is-primary.is-outlined:hover, .button.is-primary.is-outlined:focus {
-  background-color: #00d1b2;
-  border-color: #00d1b2;
-=======
   border-color: #ff3860;
   border-width: 1px;
   color: #ff3860;
@@ -964,7 +926,6 @@ a.box:active {
 .button.is-primary.is-outlined:hover, .button.is-primary.is-outlined:focus {
   background-color: #ff3860;
   border-color: #ff3860;
->>>>>>> master
   color: white;
 }
 
@@ -1208,11 +1169,7 @@ a.box:active {
 }
 
 .content a:not(.button):hover {
-<<<<<<< HEAD
-  border-bottom-color: #00d1b2;
-=======
   border-bottom-color: #ff3860;
->>>>>>> master
 }
 
 .content li + li {
@@ -1360,13 +1317,8 @@ a.box:active {
   position: relative;
   vertical-align: top;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-<<<<<<< HEAD
-  max-width: 100%;
-  width: 100%;
-=======
   max-width: 500px;
   width: 500px;
->>>>>>> master
 }
 
 .input:hover,
@@ -1378,11 +1330,7 @@ a.box:active {
 .textarea:active,
 .textarea:focus,
 .textarea.is-active {
-<<<<<<< HEAD
-  border-color: #00d1b2;
-=======
   border-color: #ff3860;
->>>>>>> master
   outline: none;
 }
 
@@ -1441,11 +1389,7 @@ a.box:active {
 
 .input.is-primary,
 .textarea.is-primary {
-<<<<<<< HEAD
-  border-color: #00d1b2;
-=======
   border-color: #ff3860;
->>>>>>> master
 }
 
 .input.is-info,
@@ -1599,11 +1543,7 @@ a.box:active {
 }
 
 .select select:active, .select select:focus, .select select.is-active {
-<<<<<<< HEAD
-  border-color: #00d1b2;
-=======
   border-color: #ff3860;
->>>>>>> master
   outline: none;
 }
 
@@ -1647,11 +1587,7 @@ a.box:active {
 }
 
 .select select.is-primary {
-<<<<<<< HEAD
-  border-color: #00d1b2;
-=======
   border-color: #ff3860;
->>>>>>> master
 }
 
 .select select.is-info {
@@ -1687,11 +1623,7 @@ a.box:active {
 }
 
 .select:after {
-<<<<<<< HEAD
-  border: 1px solid #00d1b2;
-=======
   border: 1px solid #ff3860;
->>>>>>> master
   border-right: 0;
   border-top: 0;
   content: " ";
@@ -1784,11 +1716,7 @@ a.box:active {
 }
 
 .help.is-primary {
-<<<<<<< HEAD
-  color: #00d1b2;
-=======
   color: #ff3860;
->>>>>>> master
 }
 
 .help.is-info {
@@ -2241,11 +2169,7 @@ a.box:active {
 }
 
 .notification.is-primary {
-<<<<<<< HEAD
-  background-color: #00d1b2;
-=======
   background-color: #ff3860;
->>>>>>> master
   color: white;
 }
 
@@ -2330,19 +2254,11 @@ a.box:active {
 }
 
 .progress.is-primary::-webkit-progress-value {
-<<<<<<< HEAD
-  background-color: #00d1b2;
-}
-
-.progress.is-primary::-moz-progress-bar {
-  background-color: #00d1b2;
-=======
   background-color: #ff3860;
 }
 
 .progress.is-primary::-moz-progress-bar {
   background-color: #ff3860;
->>>>>>> master
 }
 
 .progress.is-info::-webkit-progress-value {
@@ -2457,11 +2373,7 @@ a.box:active {
 
 .table td.is-link > a:hover,
 .table th.is-link > a:hover {
-<<<<<<< HEAD
-  background-color: #00d1b2;
-=======
   background-color: #ff3860;
->>>>>>> master
   color: white;
 }
 
@@ -2996,11 +2908,7 @@ a.box:active {
 }
 
 .tag.is-primary {
-<<<<<<< HEAD
-  background-color: #00d1b2;
-=======
   background-color: #ff3860;
->>>>>>> master
   color: white;
 }
 
@@ -3615,19 +3523,11 @@ a.box:active {
 
 .menu-list a:hover {
   background-color: whitesmoke;
-<<<<<<< HEAD
-  color: #00d1b2;
-}
-
-.menu-list a.is-active {
-  background-color: #00d1b2;
-=======
   color: #ff3860;
 }
 
 .menu-list a.is-active {
   background-color: #ff3860;
->>>>>>> master
   color: white;
 }
 
@@ -3745,20 +3645,12 @@ a.box:active {
 }
 
 .message.is-primary .message-header {
-<<<<<<< HEAD
-  background-color: #00d1b2;
-=======
   background-color: #ff3860;
->>>>>>> master
   color: white;
 }
 
 .message.is-primary .message-body {
-<<<<<<< HEAD
-  border-color: #00d1b2;
-=======
   border-color: #ff3860;
->>>>>>> master
   color: gray;
 }
 
@@ -4070,11 +3962,7 @@ a.box:active {
 }
 
 .nav-toggle.is-active span {
-<<<<<<< HEAD
-  background-color: #00d1b2;
-=======
   background-color: #ff3860;
->>>>>>> master
 }
 
 .nav-toggle.is-active span:nth-child(1) {
@@ -4178,25 +4066,15 @@ a.nav-item.is-tab {
 
 .nav-item a.is-tab:hover,
 a.nav-item.is-tab:hover {
-<<<<<<< HEAD
-  border-bottom: 1px solid #00d1b2;
-=======
   border-bottom: 1px solid #ff3860;
->>>>>>> master
   border-top: 1px solid transparent;
 }
 
 .nav-item a.is-tab.is-active,
 a.nav-item.is-tab.is-active {
-<<<<<<< HEAD
-  border-bottom: 3px solid #00d1b2;
-  border-top: 3px solid transparent;
-  color: #00d1b2;
-=======
   border-bottom: 3px solid #ff3860;
   border-top: 3px solid transparent;
   color: #ff3860;
->>>>>>> master
 }
 
 @media screen and (max-width: 768px) {
@@ -4285,11 +4163,7 @@ a.nav-item.is-tab.is-active {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-<<<<<<< HEAD
-  background-color: white;
-=======
   background-color: #D3D3D3;
->>>>>>> master
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4469,11 +4343,7 @@ a.nav-item.is-tab.is-active {
 }
 
 .panel-list a:hover {
-<<<<<<< HEAD
-  color: #00d1b2;
-=======
   color: #ff3860;
->>>>>>> master
 }
 
 .panel-tabs {
@@ -4589,13 +4459,8 @@ a.panel-block:hover {
 }
 
 .tabs li.is-active a {
-<<<<<<< HEAD
-  border-bottom-color: #00d1b2;
-  color: #00d1b2;
-=======
   border-bottom-color: #ff3860;
   color: #ff3860;
->>>>>>> master
 }
 
 .tabs ul {
@@ -4711,13 +4576,8 @@ a.panel-block:hover {
 }
 
 .tabs.is-toggle li.is-active a {
-<<<<<<< HEAD
-  background-color: #00d1b2;
-  border-color: #00d1b2;
-=======
   background-color: #ff3860;
   border-color: #ff3860;
->>>>>>> master
   color: white;
   z-index: 1;
 }
@@ -6368,11 +6228,7 @@ a.panel-block:hover {
 }
 
 .hero.is-primary {
-<<<<<<< HEAD
-  background-color: #00d1b2;
-=======
   background-color: #ff3860;
->>>>>>> master
   color: white;
 }
 
@@ -6400,11 +6256,7 @@ a.panel-block:hover {
 
 @media screen and (max-width: 768px) {
   .hero.is-primary .nav-menu {
-<<<<<<< HEAD
-    background-color: #00d1b2;
-=======
     background-color: #ff3860;
->>>>>>> master
   }
 }
 
@@ -6443,21 +6295,12 @@ a.panel-block:hover {
 .hero.is-primary .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle li.is-active a:hover {
   background-color: white;
   border-color: white;
-<<<<<<< HEAD
-  color: #00d1b2;
-}
-
-.hero.is-primary.is-bold {
-  background-image: -webkit-linear-gradient(309deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%);
-  background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%);
-=======
   color: #ff3860;
 }
 
 .hero.is-primary.is-bold {
   background-image: -webkit-linear-gradient(309deg, #009e6c 0%, #ff3860 71%, #00e7eb 100%);
   background-image: linear-gradient(141deg, #009e6c 0%, #ff3860 71%, #00e7eb 100%);
->>>>>>> master
 }
 
 @media screen and (max-width: 768px) {
@@ -6917,12 +6760,6 @@ a.panel-block:hover {
 }
 
 .footer a:not(.icon):hover, .footer a:visited:not(.icon):hover {
-<<<<<<< HEAD
-  border-bottom-color: #00d1b2;
-}
-/*# sourceMappingURL=bulma.css.map */
-=======
   border-bottom-color: #ff3860;
 }
 /*# sourceMappingURL=bulma.css.map */
->>>>>>> master
