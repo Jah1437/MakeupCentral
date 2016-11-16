@@ -23,5 +23,7 @@ a {
 }
 
 video {
+	bottom: 0;
 	float:left;
+
 }
