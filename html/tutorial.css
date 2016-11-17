@@ -2,26 +2,6 @@ body {
 	background: #E8E8E8;
 }
 
-.centerImage {
-	display: block;
-	margin: auto;
-}
-.centerText {
-	text-align: center;
-}
-
-h1 { 
-	font-size: 3em;
-}
-
-h2 { 
-	font-size: 2em;
-}
-
-a {
-	color:black;
-}
-
 video {
 	bottom: 0;
 	float:left;
@@ -36,15 +16,4 @@ video {
 .scrollableFeed {
 	max-height: 90vh;
 	overflow-y:auto;
-}
-
-.columnButton {
-	width:90%;
-	height:10vh;
-	color:blue;
-	margin-top: 5px;
-}
-
-.heading {
-	
 }
