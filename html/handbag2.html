@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="../../favicon.ico">
-
+  <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
   <title>My Handbag</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -19,11 +19,9 @@
   <!-- Bootstrap core CSS -->
   <link href="../bulma-0.2.3/css/bulma.css" rel="stylesheet">
   <link href="navbar-fixed-top.css" rel="stylesheet">
-  <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
-
 </head>
 
-<body>
+<body style="max-width:100vw">
   <nav class="nav">
     <div class="nav-item">
       <a class="title" href="home.html">
@@ -59,33 +57,33 @@
   </nav>
 
 
-  <div class="columns">
-    <div class="column is-3">
-      <aside class="menu">
-        <ul class="menu-list" style="margin-left:10px;margin-top:10px">
-          <p class="menu-label">
-            Navigation
-          </p>
-          <li><a>Home</a></li>
-          <li><a>Search</a></li>
-          <li><a href="handbag.html" class="is-active">My Handbag</a></li>
-          <li><a>Explore</a></li>
-          <p class="menu-label">
-            Cosmetics
-          </p>
-          <li><a>Eyes</a>
-          </li>
-          <li><a>Lips</a>
-          </li>
-          <li><a>Brows</a>
-          </li>
-          <li><a>Nose</a>
-          </li>
-          <li><a>Face</a>
-          </li>
-        </ul>
-      </div>
-    </aside>
+    <div class="columns">
+      <div class="column is-3">
+        <aside class="menu">
+          <ul class="menu-list" style="margin-left:10px;margin-top:10px">
+            <p class="menu-label">
+              Navigation
+            </p>
+              <li><a>Home</a></li>
+              <li><a>Search</a></li>
+              <li><a href="handbag.html" class="is-active">My Handbag</a></li>
+              <li><a>Explore</a></li>
+            <p class="menu-label">
+              Cosmetics
+            </p>
+              <li><a>Eyes</a>
+              </li>
+              <li><a>Lips</a>
+              </li>
+              <li><a>Brows</a>
+              </li>
+              <li><a>Nose</a>
+              </li>
+              <li><a>Face</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
 
 
     <div class="column is-three-quarters">
@@ -94,10 +92,10 @@
           <div class="heading">
             <h1 class="title">My Handbag</h1>
           </div>
-          <h2 class="subtitle">
-            Add products with you right now to see tutorials that use them!
-          </h2>
-          <hr>
+            <h2 class="subtitle">
+              Add products with you right now to see tutorials that use them!
+            </h2>
+            <hr>
   <!--<p class="control has-addons has-addons-centered" id="searchbar">
   <span class="select">
     <select>
@@ -118,32 +116,54 @@
     Add Product
   </a>
 </p>-->
-  <div class="container">
-    <div class="row">
-      <div class="control-group" id="fields">
-        <label class="control-label" for="field1">Your Products</label>
-        <div class="controls"> 
-          <form role="form" autocomplete="off">
-            <div class="entry input-group col-xs-8">
-              <input class="form-control" name="fields[]" type="text" placeholder="Enter products" />
-              <span class="input-group-btn">
-                <a href="handbag2.html">
-                  <button class="btn btn-success btn-add" type="button">
-                    <span class="glyphicon glyphicon-plus"></span>
-                  </button>
-                </a>
-              </span>
+<div class="container">
+  <div class="row">
+        <div class="control-group" id="fields">
+            <label class="control-label" for="field1">Your Products</label>
+            <div class="controls"> 
+                <form role="form" autocomplete="off">
+                    <div class="entry input-group col-xs-8">
+                        <input class="form-control" name="fields[]" type="text" value="NARS liquid mascara" />
+                      <span class="input-group-btn">
+                        <a href="handbag.html">
+                            <button class="btn btn-remove  btn-danger" type="button">
+                                <span class="glyphicon glyphicon-minus"></span>
+                            </button>
+                          </a>
+                        </span>
+                    </div>
+                </form>
+            <br>
             </div>
-          </form>
-          <br>
         </div>
-      </div>
-    </div>
   </div>
+</div>
+<div class="container">
+  <div class="row">
+        <div class="control-group" id="fields">
+            <div class="controls"> 
+                <form role="form" autocomplete="off">
+                    <div class="entry input-group col-xs-8">
+                        <input class="form-control" name="fields[]" type="text" placeholder="Enter products" />
+                      <span class="input-group-btn">
+                        <a href="">
+                            <button class="btn btn-success btn-add" type="button">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                          </a>
+                        </span>
+                    </div>
+                </form>
+            <br>
+            </div>
+        </div>
+  </div>
+</div>
 <a href="handbagsearch.html" class="button is-success" style="position: absolute; right:29vw">
   <span class="icon">
     <i class="fa fa-check"></i>
   </span>
   <span>Search Tutorials</span>
 </a>
+
 </body>
