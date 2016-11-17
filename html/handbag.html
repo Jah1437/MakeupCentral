@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,8 +10,15 @@
   <meta name="author" content="">
   <link rel="icon" href="../../favicon.ico">
 
-  <title>Fixed Top Navbar Example for Bootstrap</title>
+  <title>My Handbag</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- Bootstrap core CSS -->
   <link href="../bulma-0.2.3/css/bulma.css" rel="stylesheet">
 
@@ -63,6 +71,7 @@
     </div>
   </nav>
 
+
     <div class="columns">
       <div class="column is-3">
         <aside class="menu">
@@ -70,9 +79,9 @@
             <p class="menu-label">
               Navigation
             </p>
-              <li><a class="is-active">Home</a></li>
+              <li><a >Home</a></li>
               <li><a>Search</a></li>
-              <li><a href="handbag.html">My Handbag</a></li>
+              <li><a class= "is-active"href="handbag.html">My Handbag</a></li>
               <li><a>Explore</a></li>
             <p class="menu-label">
               Cosmetics
@@ -126,14 +135,112 @@
               A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
             </h2>
             <hr>
-            <div class="content">
-              lol put content here yo
+  <!--<p class="control has-addons has-addons-centered" id="searchbar">
+  <span class="select">
+    <select>
+      <option>Enter Brand</option>
+      <option>Mac</option>
+      <option>L'Oreal</option>
+      <option>Sephora</option>
+      <option>Dior</option>
+      <option>Gosh</option>
+      <option>Neutrogena</option>
+      <option>Revlon</option>
+      <option>Chanel</option>
+      <option>Gucci</option>
+    </select>
+  </span>
+  <input class="input is-expanded" type="text" placeholder="Enter your product">
+  <a class="button is-success">
+    Add Product
+  </a>
+</p>
+<script type="javascript">
+function addElement(parentId, elementTag, elementId, html) {
+    // Adds an element to the document
+    var p = document.getElementById(parentId);
+    var newElement = document.createElement(elementTag);
+    newElement.setAttribute('id', elementId);
+    newElement.innerHTML = html;
+    p.appendChild(newElement);
+</script>
+<script type="javascript">
+function removeElement(elementId) {
+    // Removes an element from the document
+    var element = document.getElementById(elementId);
+    element.parentNode.removeChild(element);
+}
+</script>
+<script TYPE="javascript">
+var fileId = 0; // used by the addFile() function to keep track of IDs
+function addFile() {
+    fileId++; // increment fileId to get a unique ID for the new element
+    var html = '<input type="file" name="uploaded_files[]" /> ' +
+               '<a href="" onclick="javascript:removeElement('file-' + fileId + ''); return false;">Remove</a>';
+    addElement('control', 'p', 'file-' + fileId, html);
+}
+</script>
+<script type="javascript">
+$(function()
+{
+    $(document).on('click', '.btn-add', function(e)
+    {
+        e.preventDefault();
+
+        var controlForm = $('.controls form:first'),
+        currentEntry = $(this).parents('.entry:first'),
+        newEntry = $(currentEntry.clone()).appendTo(controlForm);
+
+        newEntry.find('input').val('');
+        controlForm.find('.entry:not(:last) .btn-add')
+            .removeClass('btn-add').addClass('btn-remove')
+            .removeClass('btn-success').addClass('btn-danger')
+            .html('<span class="glyphicon glyphicon-minus"></span>');
+    }).on('click', '.btn-remove', function(e)
+    {
+    $(this).parents('.entry:first').remove();
+    e.preventDefault();
+    return false;
+  });
+});
+</script>-->
+<div class="container">
+  <div class="row">
+        <div class="control-group" id="fields">
+            <label class="control-label" for="field1">Your Products</label>
+            <div class="controls"> 
+                <form role="form" autocomplete="off">
+                    <div class="entry input-group col-xs-8">
+                        <input class="form-control" name="fields[]" type="text" placeholder="Enter products" />
+                      <span class="input-group-btn">
+                            <button class="btn btn-success btn-add" type="button">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+            <br>
+            </div>
+        </div>
+  </div>
+</div>
+<script type="javascript">
+
+
+
+                </div>
+                </form>
+            <br>
+            </div>
+        </div>
+  </div>
+</div>
             </div>
           </div>
         </div>
       </section>
     </div>
-
   </div>
-
 </body>
+
+
